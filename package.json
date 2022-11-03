@@ -1,0 +1,45 @@
+{
+  "name": "es6-basic",
+  "version": "1.0.0",
+  "type":"module",
+  "main": "server.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "npm run test",
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icemokacat/es6-basic.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icemokacat/es6-basic/issues"
+  },
+  "homepage": "https://github.com/icemokacat/es6-basic#readme",
+  "dependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "log4js": "^6.7.0",
+    "opener": "^1.5.2"    
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "8.0.1",
+    "log4js": "^6.7.0",
+    "nodemon": "^2.0.19",
+    "opener": "^1.5.2"
+  },
+  "author": "icemokacat"
+}

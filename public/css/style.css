@@ -1,0 +1,42 @@
+/* chatting style.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+#chatting {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#chatting-box {
+  flex: 1;
+  overflow: auto;
+}
+#chatting-box-inner {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+#chatting-input {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+#chatting-input-text {
+  flex: 1;
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#chatting-input-button {
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
