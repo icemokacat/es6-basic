@@ -7,6 +7,7 @@ import log4js from 'log4js';
  */
 import loginAPI from '../api/login.js';
 import orderAPI from '../api/order.js';
+import testAPI from '../api/test.js';
 
 // 라우터
 const apiRouter = Router();
@@ -15,5 +16,7 @@ const apiRouter = Router();
 apiRouter.use('/login', loginAPI);
 // 주문
 apiRouter.use('/order', orderAPI);
+// 테스트
+apiRouter.use('/test', testAPI);
 
 export default apiRouter;
